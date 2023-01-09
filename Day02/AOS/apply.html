@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Manjesh</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./home.css">
+
+</head>
+<body>
+    <!-- Heading Starts here -->
+    <div id="nav">
+        <div id="heading">
+            <h3>AOS: Automation Solution Leader of the world</h3>
+        </div>
+        <div id="navlinks">
+            <a href="home.html">Home</a>
+            <a href="signin.html">SignIn</a>
+            <a href="register.html">Register</a>
+            <a href="apply.html">Apply for Internship</a>
+            <a href="terms.html">T&C</a> 
+        </div>
+        <!-- Heading Ends here -->
+    </div>
+
+
+
+
+    <!-- Content Starts here -->
+    <div id="register"  class="ScrollStyle">
+        <h1>Application</h1>
+        <br>
+        <form>
+            <div class="form-row">
+                
+                <div class="col-md-4 mb-3">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                </div>
+               
+                <div class="col-md-4 mb-3">
+                    <label for="inputnumber">Phone number</label>
+                    <input type="tel" class="form-control" id="inputNumber" pattern="[0-9]{10}" placeholder="Phone number" required>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputDob">Date of Birth</label>
+                    <input type="date" class="form-control" id="inputDob" placeholder="DD-MM-YYYY" required>
+                </div>
+            
+                <label>Gender: </label>
+                <input type="radio" name="gen" class="largerCheckbox" value="gen-1">
+                <label>Male</label>
+                <input type="radio" name="gen" class="largerCheckbox" value="gen-2">
+                <label>Female</label>
+                <input type="radio" name="gen" class="largerCheckbox" value="gen-3">
+                <label>Other</label>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputAdd">Address</label>
+                    <input type="text" class="form-control" id="inputAdd" placeholder="Address" required>
+                </div>
+                  
+                <div class="col-md-4 mb-3">
+                    <label for="inputnumber">10th score</label>
+                    <input type="percentage" class="form-control" id="inputNumber" min="1" max="100" placeholder="Percentage" required>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputnumber">12th score</label>
+                    <input type="percentage" class="form-control" id="inputNumber" min="1" max="100" placeholder="Percentage" required>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputnumber">B.E aggregate</label>
+                    <input type="percentage" class="form-control" id="inputNumber" min="1" max="100" placeholder="Percentage" required>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputnumber">Languages known</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="1">English</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="2">Kannada</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="3">Hindi</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="4">Tamil</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="5">Telugu</label><br>
+                    <input type="checkbox" class="largerCheckbox" value="6">Malayalam</label><br>
+                </div>
+       
+                <div class="col-md-4 mb-3">
+                    <label for="inputPassword4">Role</label>
+                    <select class="custom-select" required>
+                        <option value="">select role</option>
+                        <option value="1">Web developer</option>
+                        <option value="2">DevOps engineer</option>
+                        <option value="3">FrontEnd developer</option>
+                        <option value="4">System engineer</option>
+                        <option value="5">BackEnd developer</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputLink">LinkedIn</label>
+                    <input type="url" class="form-control" id="inputLink" placeholder="LinkedIn profile link" required>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label for="inputLink">GitHub</label>
+                    <input type="url" class="form-control" id="inputLink" placeholder="Github profile link">
+                </div>
+                
+                    <div class="invalid-feedback">Example invalid custom select feedback</div>
+                
+                </div>
+            
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    I here by delcare that all the provided details are valid and correct
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">
+                    <a href="thank.html" id="apply">Apply</a>
+                </button>
+                <br>
+                <br>
+                <br>
+                <h4 id="manju">website created by Manjesh M | JIT'2023 </h4>
+            </div>
+        </form>
+    </div>    
+    <!-- Content Ends here -->
+</body>
+</html>

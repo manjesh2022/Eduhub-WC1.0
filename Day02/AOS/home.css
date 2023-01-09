@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    font-family: "Roboto Mono", monospace;
+}
+
+#nav{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heading{
+    padding: 20px;
+}
+
+#navlinks a {
+    color: white;
+    font-size:large ;
+    margin: 12px ;
+    padding: 20px;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('./img.jpg');
+    overflow: hidden;
+}
+
+.nav {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-size: xx-large;
+}
+
+#text{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+#register{
+    color: white;
+    font-size: xx-large;
+}
+
+#smallregister{
+    color: white;
+    font-size: x-large;
+}
+
+.ScrollStyle{
+    color: white;
+    max-height: 850px;
+    overflow-y: scroll;
+}
+
+#apply{
+    color: white;
+    font-size:medium;
+}
+
+#manju{
+    text-align: center;
+    color: rgb(220, 149, 62);
+}
+
+input.largerCheckbox{
+    width : 25px;
+    height : 25px;
+}
+
