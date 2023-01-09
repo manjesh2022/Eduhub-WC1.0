@@ -3,7 +3,7 @@ Frontend Development at Eduhub Winter Camp 1.0
 
 This repository contains beginner friendly mini projects such as basic HTML portfolio/resume/etc 
 
-# Day01
+# Day01: Survey form
 ![image](https://user-images.githubusercontent.com/98503314/211203223-860a154d-3f2f-477e-bc13-2e83fe9d2677.png)
 
-# Day02
+# Day02: Multipage website
